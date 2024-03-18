@@ -10,6 +10,7 @@ import org.junit.Test;
 
 public class digit_cTest {
 	digit_c dg= new digit_c(674534);
+	digit_c dg1= new digit_c(63);
 
 	@BeforeClass
 	public static void setUpBeforeClass() throws Exception {
@@ -30,6 +31,13 @@ public class digit_cTest {
 	@Test
 	public void testcount() {
 		assertEquals( 6,dg.getCount());
+	}
+
+	
+	@Test
+	public void testcount1() {
+		System.out.println("Aishwarya Shirodkar RBCA22113");
+		assertEquals( 2,dg1.getCount());
 	}
 
 }

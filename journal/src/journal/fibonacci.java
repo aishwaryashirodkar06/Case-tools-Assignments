@@ -1,9 +1,10 @@
 package journal;
-import java.util.Scanner;
+
 public class fibonacci {
-	
+	  
 	        int[] fibSeries;
 		    fibonacci() {
+		    	System.out.println("Aishwarya Shirodkar RBCA22113");
 		        fibSeries = new int[5];
 		        fibSeries[0] = 0;
 		        fibSeries[1] = 1;

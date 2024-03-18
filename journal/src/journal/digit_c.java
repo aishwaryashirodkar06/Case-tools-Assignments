@@ -15,6 +15,7 @@ public class digit_c {
 	            ++count;
 	        }
 	        System.out.println("Number of digits: " + count);
+	        System.out.println("Aishwarya Shirodkar RBCA22113");
 	    }
 	public int getCount() {
         return count;

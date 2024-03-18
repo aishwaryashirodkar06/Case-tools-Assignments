@@ -8,11 +8,8 @@ import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-public class addiTest {
-	
-	addi ad=new addi(5,7);
-	
-
+public class animalbreedTest {
+	Dog dg=new Dog("Moti", "German Shepard");
 	@BeforeClass
 	public static void setUpBeforeClass() throws Exception {
 	}
@@ -28,16 +25,16 @@ public class addiTest {
 	@After
 	public void tearDown() throws Exception {
 	}
+
 	@Test
-	public void testadd() {
-		double result=ad.add();
-		assertEquals(12,result,0.01);
+	public void test() {
+		fail("Not yet implemented");
 	}
-	
 	@Test
-	public void testadd2() {
+	public void testnamedog1() {
 		System.out.println("Aishwarya Shirodkar RBCA22113");
-		double result=ad.add();
-		assertEquals(15,result,0.01);
+		String r=dg.getName();
+		assertEquals("Moti",r);
 	}
+
 }

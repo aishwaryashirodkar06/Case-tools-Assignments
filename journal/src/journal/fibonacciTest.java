@@ -31,5 +31,12 @@ public class fibonacciTest {
 		 int[] expected = {0, 1, 1, 2, 3};
 	        assertArrayEquals(expected, fb.getFibSeries());
 	}
+	
+	@Test
+	public void testfibonacci2() {
+		System.out.println("Aishwarya Shirodkar RBCA22113");
+		 int[] expected = {0, 1, 1, 2};
+	        assertArrayEquals(expected, fb.getFibSeries());
+	}
 
 }

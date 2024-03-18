@@ -8,10 +8,9 @@ import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-public class addiTest {
-	
-	addi ad=new addi(5,7);
-	
+public class EEmployeeTest {
+	double basicSalary1 = 5000;
+    employee e1 = new employee(basicSalary1);
 
 	@BeforeClass
 	public static void setUpBeforeClass() throws Exception {
@@ -28,16 +27,11 @@ public class addiTest {
 	@After
 	public void tearDown() throws Exception {
 	}
+
+
 	@Test
-	public void testadd() {
-		double result=ad.add();
-		assertEquals(12,result,0.01);
-	}
-	
-	@Test
-	public void testadd2() {
+	public void test() {
 		System.out.println("Aishwarya Shirodkar RBCA22113");
-		double result=ad.add();
-		assertEquals(15,result,0.01);
-	}
+    assertEquals(500, e1.da, 0.01);
+}
 }
