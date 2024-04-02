@@ -9,7 +9,7 @@ import org.junit.BeforeClass;
 import org.junit.Test;
 
 public class animalbreedTest {
-	Dog dg=new Dog("Moti", "German Shepard");
+	Dog dg=new Dog("Motii", "German Shepard");
 	@BeforeClass
 	public static void setUpBeforeClass() throws Exception {
 	}
